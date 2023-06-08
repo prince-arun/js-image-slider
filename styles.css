@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(201, 221, 114);
+}
+
+.container {
+  width: 60%;
+  height: 500px;
+  margin: auto;
+  margin-top: 100px;
+  box-shadow: 0px 0px 3px grey;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgb(160, 160, 158);
+}
+.container:hover {
+  transform: translateX(-5px);
+  transform: translateY(-5px);
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  position: absolute;
+}
+
+.navigation {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.navigation button {
+  font-size: 25px;
+  padding: 8px 15px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.navigation button:hover {
+  background-color: rgb(47, 193, 230);
+  color: white;
+  border: none;
+  border-color: rgb(247, 160, 60);
+}
